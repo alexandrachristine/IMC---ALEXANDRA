@@ -16,17 +16,12 @@ O **IMC+** permite que usuários calculem seu Índice de Massa Corporal (IMC) co
 ---
 
 ## 🛠️ Recursos e Funcionalidades
-
-- Tela de boas-vindas com logo da FECAP e botão de acesso à calculadora  
+ 
 - Formulário de entrada com:
   - Campos para **peso** e **altura**
-  - Botões de **calcular**, **limpar** e **voltar**
+  - Botões de **calculo**, **Apagar** e **Sair**
 - Telas exclusivas para cada faixa de IMC:
   - Mostram os dados inseridos e o resultado calculado
-- Comunicação entre telas com **Intent** e **Bundle**
-- Componentes utilizados:
-  - `EditText`, `TextView`, `Button`, `ImageView`
-- Interface construída com atenção ao design:
   - Paleta de Cores:
     - 🌿 Verde Escuro: `#006341`
     - 🍃 Verde Claro: `#00A859`
@@ -36,10 +31,8 @@ O **IMC+** permite que usuários calculem seu Índice de Massa Corporal (IMC) co
 
 ---
 
-## 🧩 Aprendizados e Desafios
-
-Durante o desenvolvimento, um dos maiores desafios foi a **troca de informações entre Activities**. Isso proporcionou uma imersão mais profunda nos conceitos de **navegação com Intents** e organização de layouts via XML.  
-Além disso, todo o conteúdo fixo foi centralizado no `appValues.xml`, favorecendo a **manutenção do código** e a **reutilização de estilos**.
+## 🧩 Manutenção
+Todo o conteúdo fixo foi centralizado no `appValues.xml`, favorecendo a **manutenção do código** e a **reutilização de estilos**.
 
 ---
 
